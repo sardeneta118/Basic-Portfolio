@@ -1,0 +1,106 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+}
+
+/* H1 is the name that is on top of the page. There are a couple of things left to adjust.*/
+
+h1 {
+    color: #ffc400;
+    background-color: black;
+    margin: 0;
+    text-align: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #ffc400;
+    background-color: black;
+    margin: 0;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+h3{
+    font-size: 24px;
+    color: #ffc400;
+    background-color: black;
+    margin: 0;
+    text-align: right;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    float: right;
+}
+
+
+
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+#main-bio,
+#contact-info,
+#bio-image {
+    float: left;
+}
+
+#main-bio {
+    width: 70%;
+}
+#contact-info {
+    width: 30%;
+    color: peachpuff;
+}
+
+#bio-image {
+    margin-right: 20px;
+    width: 200px;
+    height: 200px;
+}
+
+/*this are the colors of the links and they are finished. Just need to connect the pages when clicked.*/
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover{
+    color: peachpuff;
+}
+
+a:active{
+    color: orangered;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: inline;
+    width: 60px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}

@@ -1,0 +1,36 @@
+body {
+    background-color: azure;
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 150%;
+    
+}
+
+h1 {
+    color: antiquewhite;
+    background-color: black;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+
+}
+
+a:link{
+    color:red;
+}
+
+a:visited{
+    color: rebeccapurple;
+}
+
+a:hover{
+    color: peachpuff;
+}
+
+a:active{
+    color: orangered;
+}
