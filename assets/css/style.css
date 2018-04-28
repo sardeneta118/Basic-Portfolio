@@ -41,6 +41,11 @@ h3{
 }
 
 
+h5{
+    font-size: 32px;
+}
+
+
 
 .container{
     width: 1024px;
@@ -58,7 +63,7 @@ h3{
 }
 #contact-info {
     width: 30%;
-    color: peachpuff;
+    color: rebeccapurple;
 }
 
 #bio-image {
@@ -102,5 +107,16 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: whitesmoke;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #main-bio {
+        background-color: whitesmoke;
+    }
 }
